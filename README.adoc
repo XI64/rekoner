@@ -1,0 +1,20 @@
+# Rekoner 
+
+This is a test-demo-dummy project for me to learn. Massively WIP.
+
+* Root Name = reckoner
+
+---
+
+## Design Choices:
+ * 1. Usage of String attributes instead of integer attributes : Readability
+ * 2. Hypothetical Instruction Set : This is just a demo project
+ * 3. String defined cells : Readability
+ 
+  All in all this is just a demo (beginner) project so the choices are very noobish as well as
+  rudimentary.
+
+---
+
+
+License : WTFPL v2
