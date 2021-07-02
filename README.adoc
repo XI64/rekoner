@@ -18,3 +18,5 @@ This is a test-demo-dummy project for me to learn. Massively WIP.
 
 
 License : WTFPL v2
+
+image::http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png[WTFPL, link=http://www.wtfpl.net/]
