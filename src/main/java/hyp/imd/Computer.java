@@ -15,15 +15,16 @@ public class Computer {
     CPU cpu = new CPU(bus);
     RAM ram = new RAM(bus);
 
+    public Computer(String[] initMemory) {
+        ram.initialized(initMemory);
+    }
+
     void boot(){
         int nst = 2;
-        for (int step = 0; step < nst; ++step) {
+        for (int step = 0; step < nst && !cpu.haleted(); ++step) {
             cpu.execute();
             if(ram.execute()){
-
             }
         }
-
-
     }
 }
